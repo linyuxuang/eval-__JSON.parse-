@@ -42,7 +42,16 @@ eval()和JSON.parse()区别
         从这个层面讲~还是推荐使用JSON.parse来实现json格式字符串的解析
         
         
-        
+      JSON.stringify()用于从一个对象解析出字符串，如
+
+
+            var a = {a:1,b:2}
+
+            结果：
+
+             JSON.stringify(a)
+
+             "{"a":1,"b":2}"
         
         
         
